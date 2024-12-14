@@ -1,0 +1,74 @@
+/* Full-page container for the login page */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw; /* Full width of the viewport */
+  font-family: Arial, sans-serif;
+  background-color: #333; /* Dark background for contrast */
+  color: white; /* White text for visibility */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card for the login form */
+.login-card {
+  width: 90%;
+  max-width: 400px; /* Restrict to a readable size */
+  background: #444; /* Darker background for the card */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Form input group */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Align labels and inputs to the left */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: white; /* Ensure labels are white */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #555; /* Slightly lighter border for contrast */
+  border-radius: 5px;
+  background-color: #555; /* Input background */
+  color: white; /* Input text color */
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff; /* Highlighted border */
+  background-color: #666; /* Slightly lighter on focus */
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff; /* Blue button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
